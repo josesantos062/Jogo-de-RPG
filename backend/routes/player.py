@@ -7,15 +7,6 @@ CORS(app)
 
 
 
-def player():
-    atribucts_player = {
-        'attack_player': 10,
-        'defense_player': 10,
-        'hp_player': 10
-    }
-
-    return jsonify(atribucts_player)
-
 
 
 if __name__ == '__main__':
